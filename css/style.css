@@ -28,7 +28,7 @@ input {
     width: 250px;
 }
 
-button {
+form button {
     background: #43bc70;
     padding: 8px 12px;
     font-size: 16px;
@@ -38,7 +38,19 @@ button {
     transition: 1s all;
 }
 
-button:hover {
+form button:hover {
     background: #0b992e;
     transform: scale(1.1);
+}
+
+#tarefas button {
+    background: transparent;
+    font-size: 14px;
+    border: 0;
+    color: red;
+    text-transform: uppercase;
+}
+
+#tarefas button:hover {
+    font-weight: bolder;
 }
